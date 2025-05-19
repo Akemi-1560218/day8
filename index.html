@@ -592,3 +592,56 @@ if (JSON.stringify(actual) === JSON.stringify(expected)) {
   console.log("expected:", expected);
   console.groupEnd();
 }
+
+
+
+
+HTML + CSS
+1 Goolge Chrome で、Eloquent JavaScript にアクセスし、コンソールを開いてください。
+2 コンソールで次のコードを 1 行ずつ実行し、何が表示されるか見てみましょう。実行しているコードがどんなものなのか、今は深く調べる必要はありません。
+document;
+document.body;
+document.getElementsByTagName("div");
+document.getElementById("cover");
+typeof document;
+typeof document.body;
+typeof document.getElementsByTagName;
+3 デペロッパーツールの左上に、要素(Elements) というタブが表示されているはずです。そのタブをクリックしてください。何が表示されますか？
+   
+   
+基本演習
+この演習用に、html-css-cont フォルダを作成してください。フォルダ内に index.html と style.css の 2 つのファイルを作りましょう。
+   
+index.html に以下のコードをコピーしてください。
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>a</h1>
+    <p class="little">b</p>
+    <p class="awesome">c</p>
+
+    <p id="d">d <span class="little">e</span></p>
+    <p class="great">f</p>
+  </body>
+</html>
+
+style.css に以下のコードをコピーしてください。
+/* まず、style.cssにこのルールを書き入れてください。 */
+body {
+  font-size: 200%;
+}
+
+/* ここにルールを足していきましょう。*/
+
+この演習では CSS セレクタ と プロパティ を扱う練習をします。 HTML ファイルは変更しません。
+a の文字色を青色にしてください。
+b, c, d, e, f の背景色を黄色にしてください。
+c と f を太文字にしてください。
+d の文字色を赤色にしてください。
+b と e のフォントサイズを 50% にしてください。
+e の文字色を緑色にしてください。
+完成すると以下のようになります。
